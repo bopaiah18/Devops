@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fallback color */
+    color: #000000; /* Default text color set to black */
+    background-image: url('https://shalb.com/wp-content/uploads/2019/11/Devops1-1536x1003.jpeg'); /* Path to your background image */
+    background-size: cover; /* Adjust the size to cover the entire body */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+header {
+    background-color: #0073e6;
+    color: black;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    color: black; /* Ensure text color in main section is black */
+    background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+    border-radius: 5px; /* Optional: Rounded corners for the background */
+    display: inline-block; /* Optional: Adjust to fit text content */
+}
+
+footer {
+    background-color: #0073e6;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
